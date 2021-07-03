@@ -21,6 +21,19 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'uglifier', '>= 1.3.0'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails'
+# See https://github.com/rails/execjs#readme for more supported runtimes
+# gem 'therubyracer', platforms: :ruby
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+gem 'bigdecimal', '1.3.5'
+
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+# bundle exec rake doc:rails generates the API under doc/api.
+gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -38,7 +51,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring',  '>=0.0.1'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
